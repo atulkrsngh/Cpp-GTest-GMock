@@ -60,3 +60,15 @@ TEST(myDBTest, logintest) {
     int retValue = db.init("Terminator", "I will be back"); // Act
     EXPECT_EQ(retValue, 1);
 }
+
+/*
+
+The line WillOnce(Invoke(&dbTest, &DataBaseConnect::login)) instructs the mock framework to redirect the call 
+from mdb.login2 to the real method dbTest.login. This means, in effect, you're using the real behavior of the 
+login method when login2 is invoked on the mock object.
+
+the first time the login2 method is called on the mock object mdb, it will not execute the mock’s default behavior 
+(which would usually do nothing or return a default value). Instead, it calls the login method of the real object 
+dbTest, which is an instance of DataBaseConnect.
+
+*/
