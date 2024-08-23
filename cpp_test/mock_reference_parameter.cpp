@@ -16,7 +16,8 @@ public:
 
 class MockFoo : public Foo {
 public:
-    MOCK_METHOD(bool, testFunction, (vector<int>& v, int& d), (override));
+    MOCK_METHOD(bool, testFunction, (vector<int>& v, int& d), (override)); // New syntax
+    //MOCK_METHOD(testFunction, bool(vector<int>& v, int& d));
 };
 
 TEST(MockReferenceParamsTest, TestFunctionMocking) {
@@ -43,3 +44,12 @@ TEST(MockReferenceParamsTest, TestFunctionMocking) {
     EXPECT_EQ(v, expectedV);
     EXPECT_EQ(d, expectedD);
 }
+
+/*
+
+The reason the reference arguments v and d become equal to expectedV and expectedD respectively is due to the 
+SetArgReferee action. This action modifies the passed arguments directly, as they are passed by reference, 
+allowing the mock to "mock" real behaviour that would change those values, thereby simulating the side effects 
+that the actual implementation of testFunction might have had.
+
+*/
