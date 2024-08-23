@@ -67,3 +67,10 @@ TEST(myDBTest, logintest) {
     int retValue = db.init("Terminator", "I will be back"); // Act
     EXPECT_EQ(retValue, 1);
 }
+
+/*
+
+DoAll is particularly useful when a test needs to simulate complex behaviours where multiple steps need to be 
+taken (like logging, state changes, etc.) before returning a result.
+
+*/
