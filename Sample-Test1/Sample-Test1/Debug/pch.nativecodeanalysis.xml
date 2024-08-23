@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\C++11\gtest\Sample-Test1\packages\Microsoft.googletest.v140.windesktop.msvcstl.static.rt-dyn.1.8.1.4\build\native\include\gtest\internal\</FILEPATH>
+      <FILENAME>gtest-port.h</FILENAME>
+      <LINE>1804</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'testing::internal::Mutex::owner_thread_id_' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>testing::internal::Mutex::{ctor}</FUNCTION>
+    <DECORATED>??0Mutex@internal@testing@@QAE@W4StaticConstructorSelector@012@@Z</DECORATED>
+    <FUNCLINE>1804</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>testing::internal::Mutex::owner_thread_id_</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\C++11\gtest\Sample-Test1\packages\Microsoft.googletest.v140.windesktop.msvcstl.static.rt-dyn.1.8.1.4\build\native\include\gtest\internal\</FILEPATH>
+      <FILENAME>gtest-port.h</FILENAME>
+      <LINE>1804</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'testing::internal::Mutex::critical_section_' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>testing::internal::Mutex::{ctor}</FUNCTION>
+    <DECORATED>??0Mutex@internal@testing@@QAE@W4StaticConstructorSelector@012@@Z</DECORATED>
+    <FUNCLINE>1804</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>testing::internal::Mutex::critical_section_</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\C++11\gtest\Sample-Test1\packages\Microsoft.googletest.v140.windesktop.msvcstl.static.rt-dyn.1.8.1.4\build\native\include\gtest\internal\</FILEPATH>
+      <FILENAME>gtest-port.h</FILENAME>
+      <LINE>1804</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'testing::internal::Mutex::critical_section_init_phase_' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>testing::internal::Mutex::{ctor}</FUNCTION>
+    <DECORATED>??0Mutex@internal@testing@@QAE@W4StaticConstructorSelector@012@@Z</DECORATED>
+    <FUNCLINE>1804</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>testing::internal::Mutex::critical_section_init_phase_</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\C++11\gtest\Sample-Test1\packages\Microsoft.googletest.v140.windesktop.msvcstl.static.rt-dyn.1.8.1.4\build\native\include\gtest\internal\</FILEPATH>
+      <FILENAME>gtest-port.h</FILENAME>
+      <LINE>1804</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'testing::internal::Mutex::type_' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>testing::internal::Mutex::{ctor}</FUNCTION>
+    <DECORATED>??0Mutex@internal@testing@@QAE@W4StaticConstructorSelector@012@@Z</DECORATED>
+    <FUNCLINE>1804</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>testing::internal::Mutex::type_</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\C++11\gtest\Sample-Test1\packages\Microsoft.googletest.v140.windesktop.msvcstl.static.rt-dyn.1.8.1.4\build\native\include\gtest\internal\</FILEPATH>
+      <FILENAME>gtest-port.h</FILENAME>
+      <LINE>1804</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>The enum type 'testing::internal::Mutex::StaticConstructorSelector' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).</DESCRIPTION>
+    <FUNCTION>testing::internal::Mutex::{ctor}</FUNCTION>
+    <DECORATED>??0Mutex@internal@testing@@QAE@W4StaticConstructorSelector@012@@Z</DECORATED>
+    <FUNCLINE>1804</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\C++11\gtest\Sample-Test1\packages\Microsoft.googletest.v140.windesktop.msvcstl.static.rt-dyn.1.8.1.4\build\native\include\gtest\</FILEPATH>
+      <FILENAME>gtest-test-part.h</FILENAME>
+      <LINE>62</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>The enum type 'testing::TestPartResult::Type' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).</DESCRIPTION>
+    <FUNCTION>testing::TestPartResult::{ctor}</FUNCTION>
+    <DECORATED>??0TestPartResult@testing@@QAE@W4Type@01@PBDH1@Z</DECORATED>
+    <FUNCLINE>62</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

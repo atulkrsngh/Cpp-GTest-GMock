@@ -1,0 +1,68 @@
+1. Setup gtest in linux: 
+sudo apt-get update
+sudo apt-get install build-essential cmake
+
+sudo apt-get install libgtest-dev
+cd /usr/src/gtest
+sudo cmake CMakeLists.txt
+sudo make
+sudo cp *.a /usr/lib
+In case of error : find . -name "libgtest*.a"
+sudo cp ./lib/libgtest*.a /usr/lib
+cmake --version
+
+or
+
+mkdir ~/Projects
+cd Projects
+git clone https://github.com/google/googletest.git
+cd googletest
+mkdir build
+cd build
+cmake ..
+sudo make install
+
+2. Setup VS code in linux : 
+
+Download the .deb package:
+You can download the latest .deb package from the official VS Code website.
+mkdir ~/Downloads
+copy the debian package in this downloads folder
+cd ~/Downloads
+sudo apt install ./code*.deb
+code - to run VSCode
+
+3. Write tests:
+Create a folder in the home directory and copy paste all the 3 files, triangle.h, triangle.cpp and triangle_test.cpp
+create a CMakeLists.txt file for cmake file
+
+	cmake_minimum_required(VERSION 3.10)  # Specify the required CMake version
+	project(TriangleTest)                # Set the project name
+
+	# Find the Google Test package
+	find_package(GTest REQUIRED)
+
+	# Add the source files
+	add_executable(TriangleTest triangle.cpp triangle_test.cpp)
+
+	# Link the Google Test libraries and pthread
+	target_link_libraries(TriangleTest GTest::GTest GTest::Main pthread)
+
+mkdir build
+cd build
+cmake ..
+make
+./TriangleTest
+
+With new change: Just run last two commands
+
+or run command 
+g++ -c triangle.cpp -o triangle.o
+g++ -c triangle.cpp -o triangle.o
+g++ triangle.o triangle_test.o -o TriangleTest -I/usr/local/include -L/usr/local/lib -lgtest -lgtest_main -pthread
+./TriangleTest
+
+or run single command :
+g++ triangle.cpp triangle_test.cpp -o TriangleTest -I/usr/local/include -L/usr/local/lib -lgtest -lgtest_main -pthread (for gtest)
+
+g++ test_mock.cpp -o test_mock -I/usr/local/include -L/usr/local/lib -lgmock -lgtest -lgtest_main -pthread (for mock)

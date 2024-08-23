@@ -1,0 +1,393 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'testing::internal::Mutex::owner_thread_id_' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/C++11/gtest/Sample-Test1/packages/Microsoft.googletest.v140.windesktop.msvcstl.static.rt-dyn.1.8.1.4/build/native/include/gtest/internal/gtest-port.h"
+                },
+                "region": {
+                  "startLine": 1804,
+                  "startColumn": 3,
+                  "endLine": 1804,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0Mutex@internal@testing@@QAE@W4StaticConstructorSelector@012@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "testing::internal::Mutex::owner_thread_id_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'testing::internal::Mutex::critical_section_' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/C++11/gtest/Sample-Test1/packages/Microsoft.googletest.v140.windesktop.msvcstl.static.rt-dyn.1.8.1.4/build/native/include/gtest/internal/gtest-port.h"
+                },
+                "region": {
+                  "startLine": 1804,
+                  "startColumn": 3,
+                  "endLine": 1804,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0Mutex@internal@testing@@QAE@W4StaticConstructorSelector@012@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "testing::internal::Mutex::critical_section_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'testing::internal::Mutex::critical_section_init_phase_' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/C++11/gtest/Sample-Test1/packages/Microsoft.googletest.v140.windesktop.msvcstl.static.rt-dyn.1.8.1.4/build/native/include/gtest/internal/gtest-port.h"
+                },
+                "region": {
+                  "startLine": 1804,
+                  "startColumn": 3,
+                  "endLine": 1804,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0Mutex@internal@testing@@QAE@W4StaticConstructorSelector@012@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "testing::internal::Mutex::critical_section_init_phase_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'testing::internal::Mutex::type_' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/C++11/gtest/Sample-Test1/packages/Microsoft.googletest.v140.windesktop.msvcstl.static.rt-dyn.1.8.1.4/build/native/include/gtest/internal/gtest-port.h"
+                },
+                "region": {
+                  "startLine": 1804,
+                  "startColumn": 3,
+                  "endLine": 1804,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0Mutex@internal@testing@@QAE@W4StaticConstructorSelector@012@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "testing::internal::Mutex::type_"
+          }
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "The enum type 'testing::internal::Mutex::StaticConstructorSelector' is unscoped. Prefer 'enum class' over 'enum' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/C++11/gtest/Sample-Test1/packages/Microsoft.googletest.v140.windesktop.msvcstl.static.rt-dyn.1.8.1.4/build/native/include/gtest/internal/gtest-port.h"
+                },
+                "region": {
+                  "startLine": 1804,
+                  "startColumn": 3,
+                  "endLine": 1804,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0Mutex@internal@testing@@QAE@W4StaticConstructorSelector@012@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "The enum type 'testing::TestPartResult::Type' is unscoped. Prefer 'enum class' over 'enum' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/C++11/gtest/Sample-Test1/packages/Microsoft.googletest.v140.windesktop.msvcstl.static.rt-dyn.1.8.1.4/build/native/include/gtest/gtest-test-part.h"
+                },
+                "region": {
+                  "startLine": 62,
+                  "startColumn": 3,
+                  "endLine": 62,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0TestPartResult@testing@@QAE@W4Type@01@PBDH1@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.29.30153.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "commandLine": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX86\\x86\\c1xx.dll\" -ACf{1F7B090C-16DB-4822-966A-A93D26ED4681} -ACpmspft140.dll -Alint -D_PREFAST_ -D_AST_FE_ -Analyze -zm0x00E8D1C0 -il C:\\Users\\atulk\\AppData\\Local\\Temp\\_CL_46ed285east -typedil -f pch.cpp -Ze -D_MSC_EXTENSIONS -Zp8 -Gs -pc \\:/ -D_MSC_VER=1929 -D_MSC_FULL_VER=192930153 -D_MSC_BUILD=0 -D_WIN32 -D_M_IX86=600 -D_M_IX86_FP=2 -GR -D_CPPRTTI -I D:\\C++11\\gtest\\Sample-Test1\\packages\\Microsoft.googletest.v140.windesktop.msvcstl.static.rt-dyn.1.8.1.4\\build\\native\\include -nologo -W 3 -diagnostics:column -Ot -DWIN32 -D_DEBUG -D_CONSOLE -DCODE_ANALYSIS -D_UNICODE -DUNICODE -EHs -D_CPPUNWIND -EHc -D__MSVC_RUNTIME_CHECKS -RTCs -RTCu -MDd -D_DEBUG -D_MT -D_DLL -GS -D_M_FP_PRECISE -Zc:wchar_t -Zc:forScope -Ycpch.h -FpDebug\\Sample-Test1.pch -FoDebug\\pch.obj -FdDebug\\vc142.pdb -external:W 3 -Gd -analyze:projectdirectory D:\\C++11\\gtest\\Sample-Test1\\Sample-Test1 -analyze:rulesetdirectory ;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Team Tools\\Static Analysis Tools\\\\Rule Sets; -analyze:ruleset C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Team Tools\\Static Analysis Tools\\Rule Sets\\NativeRecommendedRules.ruleset -analyze:quiet -analyze:plugin C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX86\\x86\\EspXEngine.dll -FC -errorreport:prompt -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\atlmfc\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\include -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\UnitTest\\include -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um -external:I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\include -external:I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\atlmfc\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\atlmfc\\include -external:I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\include -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -external:I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\UnitTest\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\UnitTest\\include -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -external:I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um -I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um",
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///D:/C++11/gtest/Sample-Test1/packages/Microsoft.googletest.v140.windesktop.msvcstl.static.rt-dyn.1.8.1.4/build/native/include/gtest/internal/gtest-port.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "bd427ef53caff3608a9d2b2d53142fd0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/C++11/gtest/Sample-Test1/packages/Microsoft.googletest.v140.windesktop.msvcstl.static.rt-dyn.1.8.1.4/build/native/include/gtest/gtest-test-part.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "a004bf15399eded7e86d01ca38b61b4f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/c++11/gtest/sample-test1/sample-test1/pch.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "c73e15f4934d91e320901a0308898ac8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/c++11/gtest/sample-test1/sample-test1/pch.h"
+          },
+          "hashes": {
+            "md5": "0903b0963659595244f46e4f69e7d99a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/c++11/gtest/sample-test1/packages/microsoft.googletest.v140.windesktop.msvcstl.static.rt-dyn.1.8.1.4/build/native/include/gtest/gtest.h"
+          },
+          "hashes": {
+            "md5": "53feb16064ea509f2a71a40419c46bf4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/c++11/gtest/sample-test1/packages/microsoft.googletest.v140.windesktop.msvcstl.static.rt-dyn.1.8.1.4/build/native/include/gtest/internal/gtest-internal.h"
+          },
+          "hashes": {
+            "md5": "f44f2be18506f249e2546d9a30d6960e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/c++11/gtest/sample-test1/packages/microsoft.googletest.v140.windesktop.msvcstl.static.rt-dyn.1.8.1.4/build/native/include/gtest/internal/gtest-port-arch.h"
+          },
+          "hashes": {
+            "md5": "319ef51a99729b4c52f8ad1b372d1ed2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/c++11/gtest/sample-test1/packages/microsoft.googletest.v140.windesktop.msvcstl.static.rt-dyn.1.8.1.4/build/native/include/gtest/internal/custom/gtest-port.h"
+          },
+          "hashes": {
+            "md5": "652e0b71fab73620a1b284c5a4343e9c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/c++11/gtest/sample-test1/packages/microsoft.googletest.v140.windesktop.msvcstl.static.rt-dyn.1.8.1.4/build/native/include/gtest/gtest-message.h"
+          },
+          "hashes": {
+            "md5": "3788d8bcf2ed4af72a87642cbeb891e7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/c++11/gtest/sample-test1/packages/microsoft.googletest.v140.windesktop.msvcstl.static.rt-dyn.1.8.1.4/build/native/include/gtest/internal/gtest-filepath.h"
+          },
+          "hashes": {
+            "md5": "0efe92013030f4bdf3814fb7be238a87"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/c++11/gtest/sample-test1/packages/microsoft.googletest.v140.windesktop.msvcstl.static.rt-dyn.1.8.1.4/build/native/include/gtest/internal/gtest-string.h"
+          },
+          "hashes": {
+            "md5": "a0d82423bed8d6a306d3ba71c0d3e3a9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/c++11/gtest/sample-test1/packages/microsoft.googletest.v140.windesktop.msvcstl.static.rt-dyn.1.8.1.4/build/native/include/gtest/internal/gtest-type-util.h"
+          },
+          "hashes": {
+            "md5": "412a4f9ff93c18cc39d4663ff4b23cf4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/c++11/gtest/sample-test1/packages/microsoft.googletest.v140.windesktop.msvcstl.static.rt-dyn.1.8.1.4/build/native/include/gtest/gtest-death-test.h"
+          },
+          "hashes": {
+            "md5": "9bca02695e648524e681dceb81381fe9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/c++11/gtest/sample-test1/packages/microsoft.googletest.v140.windesktop.msvcstl.static.rt-dyn.1.8.1.4/build/native/include/gtest/internal/gtest-death-test-internal.h"
+          },
+          "hashes": {
+            "md5": "879b2d75942b08dc5815365b2472b0fa"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/c++11/gtest/sample-test1/packages/microsoft.googletest.v140.windesktop.msvcstl.static.rt-dyn.1.8.1.4/build/native/include/gtest/gtest-param-test.h"
+          },
+          "hashes": {
+            "md5": "31425a8960c5f4eec953026b841fad06"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/c++11/gtest/sample-test1/packages/microsoft.googletest.v140.windesktop.msvcstl.static.rt-dyn.1.8.1.4/build/native/include/gtest/internal/gtest-param-util.h"
+          },
+          "hashes": {
+            "md5": "fa69a086ab3a25fa17d155bcb63c4569"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/c++11/gtest/sample-test1/packages/microsoft.googletest.v140.windesktop.msvcstl.static.rt-dyn.1.8.1.4/build/native/include/gtest/internal/gtest-linked_ptr.h"
+          },
+          "hashes": {
+            "md5": "221147994f82699d5f5f147a7d67bc0d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/c++11/gtest/sample-test1/packages/microsoft.googletest.v140.windesktop.msvcstl.static.rt-dyn.1.8.1.4/build/native/include/gtest/gtest-printers.h"
+          },
+          "hashes": {
+            "md5": "4cf627b1c4338972696c8d3ef9826dca"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/c++11/gtest/sample-test1/packages/microsoft.googletest.v140.windesktop.msvcstl.static.rt-dyn.1.8.1.4/build/native/include/gtest/internal/custom/gtest-printers.h"
+          },
+          "hashes": {
+            "md5": "707a55de1471b89db846c1ca2854eb03"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/c++11/gtest/sample-test1/packages/microsoft.googletest.v140.windesktop.msvcstl.static.rt-dyn.1.8.1.4/build/native/include/gtest/internal/gtest-param-util-generated.h"
+          },
+          "hashes": {
+            "md5": "8fd49e648c489f30418789f2a9392492"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/c++11/gtest/sample-test1/packages/microsoft.googletest.v140.windesktop.msvcstl.static.rt-dyn.1.8.1.4/build/native/include/gtest/gtest_prod.h"
+          },
+          "hashes": {
+            "md5": "c5ed78a2e01e54cf0aaaacb04bdc5f77"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/c++11/gtest/sample-test1/packages/microsoft.googletest.v140.windesktop.msvcstl.static.rt-dyn.1.8.1.4/build/native/include/gtest/gtest-typed-test.h"
+          },
+          "hashes": {
+            "md5": "343f54ea3e2112e848d2c7ae65130c60"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/c++11/gtest/sample-test1/packages/microsoft.googletest.v140.windesktop.msvcstl.static.rt-dyn.1.8.1.4/build/native/include/gtest/gtest_pred_impl.h"
+          },
+          "hashes": {
+            "md5": "333e8d359230c730af35e7152d1fcc66"
+          }
+        }
+      ]
+    }
+  ]
+}

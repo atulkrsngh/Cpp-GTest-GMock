@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/atulkrsngh/cpp/cpp_test/build",
+  "command": "/usr/bin/c++   -g -o CMakeFiles/TriangleTest.dir/triangle.cpp.o -c /home/atulkrsngh/cpp/cpp_test/triangle.cpp",
+  "file": "/home/atulkrsngh/cpp/cpp_test/triangle.cpp"
+},
+{
+  "directory": "/home/atulkrsngh/cpp/cpp_test/build",
+  "command": "/usr/bin/c++   -g -o CMakeFiles/TriangleTest.dir/triangle_test.cpp.o -c /home/atulkrsngh/cpp/cpp_test/triangle_test.cpp",
+  "file": "/home/atulkrsngh/cpp/cpp_test/triangle_test.cpp"
+}
+]
