@@ -68,3 +68,16 @@ TEST(myDBTest, logintest) {
     int retValue = db.init("Terminator", "I will be back"); // Act
     EXPECT_EQ(retValue, 1);
 }
+
+/*
+
+ON_CALL: Sets up a default action for the login2 method on the mock object mdb. This means that, unless explicitly 
+overridden by an EXPECT_CALL, when login2 is called, it will execute dummyLogin method from testABC class (dbTest object).
+WillByDefault(Invoke(...)): Specifies that by default, calling login2 should invoke the dummyLogin method on the dbTest 
+object.
+
+EXPECT_CALL: Sets up an expectation for login2 method to be called at least once with any arguments.
+WillOnce(DoDefault()): Specifies that the first time login2 is called, it should perform the default action that has 
+been set up for it (in this case, via ON_CALL).
+
+*/
